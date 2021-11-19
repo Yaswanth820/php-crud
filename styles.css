@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+}
+.btn{
+    color: white;
+    height: 25px;
+    width: 70px;
+    border-radius: 5px;
+}
+.create{
+    padding: 3px;
+    background-color: rgb(70, 201, 70);
+    border: 1px solid rgb(70, 201, 70);
+}
+.edit{
+    background-color: rgb(85, 85, 216);
+    border: 1px solid rgb(85, 85, 216);
+}
+.delete{
+    background-color: red;
+    border: 1px solid red;
+}
